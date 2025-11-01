@@ -1,47 +1,49 @@
+import { NavLink } from "react-router-dom"
+
 export const Header = () => {
     return (
         <>
             <header className="section-navbar">
-                <section className="top-txt">
+                <section className="top_txt">
                     <div className="head container">
                         <div className="head_txt">
                             <p>Get ARSF Membership</p>
                         </div>
                         <div className="sign_in_up">
-                            <a href="#">SING IN</a>
-                            <a href="#">SIGN UP</a>
+                            <NavLink to="#">SING IN</NavLink>
+                            <NavLink to="#">SIGN UP</NavLink>
                         </div>
                     </div>
                 </section>
 
                 <div className="container">
                     <div className="navbar-brand">
-                        <a href="index">
+                        <NavLink to="index">
                             <p>ARSF</p>
-                        </a>
+                        </NavLink>
                     </div>
 
                     <div className="navbar">
                         <ul>
                             <li className="nav-item">
-                                <a href="/" className="nav-link">
+                                <NavLink to="/" className="nav-link">
                                     Home
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="/about" className="nav-link">
+                                <NavLink to="/about" className="nav-link">
                                     about
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="/movie" className="nav-link">
+                                <NavLink to="/movie" className="nav-link">
                                     movie
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a href="/contact" className="nav-link">
+                                <NavLink to="/contact" className="nav-link">
                                     contact
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
