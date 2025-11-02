@@ -24,5 +24,5 @@ export const ErrorPage = () => {
             </section>
         );
     }
-    return <h1>404 error page</h1>
+    return <h1>The page does not exist</h1>
 }
