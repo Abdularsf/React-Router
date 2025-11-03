@@ -17,7 +17,7 @@ const App = () => {
       errorElement: <ErrorPage/>,
       children: [
         {
-          path: "/",
+          index: true,
           element: <Home />
         },
 
@@ -28,7 +28,7 @@ const App = () => {
         {
           path: "movie",
           element: <Movie />,
-          loader: getMoviesData ,
+          loader: getMoviesData,
         },
         {
           path: "contact",
