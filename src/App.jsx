@@ -21,15 +21,15 @@ const App = () => {
         },
 
         {
-          path: "/about",
+          path: "about",
           element: <About />
         },
         {
-          path: "/movie",
+          path: "movie",
           element: <Movie />
         },
         {
-          path: "/contact",
+          path: "contact",
           element: <Contact />
         },
       ]
